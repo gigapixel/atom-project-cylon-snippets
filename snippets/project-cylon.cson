@@ -1,0 +1,145 @@
+'.feature':
+    'Feature':
+        'prefix': "Feature"
+        'body': "Feature: "
+    'Background':
+        'prefix': "Background"
+        'body': "Background: "
+    'Scenario':
+        'prefix': "Scenario"
+        'body': "Scenario: "
+    'Scenario Outline':
+        'prefix': "Scenario Outline"
+        'body': "Scenario Outline: "
+    'Examples':
+        'prefix': "Example"
+        'body': "Examples: "
+    'Given':
+        'prefix': "Given"
+        'body': "Given "
+    'When':
+        'prefix': "When"
+        'body': "When "
+    'Then':
+        'prefix': "Then"
+        'body': "Then "
+    'And':
+        'prefix': "And"
+        'body': "And "
+    'But':
+        'prefix': "But"
+        'body': "But "
+    'given-001':
+        'prefix': "User has [...] page opened"
+        'body': "User has [${1:page}] page opened"
+    'when-001':
+        'prefix': "User enters '...' to the [...]"
+        'body': "User enters '${1:value}' to the [${2:element}]"
+    'when-002':
+        'prefix': "User enters date '...' to the [...]"
+        'body': "User enters date '${1:value}' to the [${2:element}]"
+    'when-003':
+        'prefix': "User clears value on the [...]"
+        'body': "User clears value on the [${1:element}]"
+    'when-004':
+        'prefix': "User clicks the [...]"
+        'body': "User clicks the [${1:element}]"
+    'when-005':
+        'prefix': "User selects the [...]"
+        'body': "User selects the [${1:element}]"
+    'when-006':
+        'prefix': "User selects '...' on the [...]"
+        'body': "User selects '${1:value}' on the [${2:element}]"
+    'when-007':
+        'prefix': "User checks the [...]"
+        'body': "User checks the [${1:element}]"
+    'when-008':
+        'prefix': "User unchecks the [...]"
+        'body': "User unchecks the [${1:element}]"
+    'when-009':
+        'prefix': "User moves mouse over the [...]"
+        'body': "User moves mouse over the [${1:element}]"
+    'when-010':
+        'prefix': "User uploads file '...' to the [...]"
+        'body': "User uploads file '${1:file}' to the [${2:element}]"
+    'when-011':
+        'prefix': "User enters '...' to the popup"
+        'body': "User enters '${1:value}' to the popup"
+    'when-012':
+        'prefix': "User accept the popup"
+        'body': "User accept the popup"
+    'when-013':
+        'prefix': "User cancel the popup"
+        'body': "User cancel the popup"
+    'then-001':
+        'prefix': "The browser shows [...] page"
+        'body': "The browser shows [${1:page}] page"
+    'then-002':
+        'prefix': "The page url is '...'"
+        'body': "The page url is '${1:url}'"
+    'then-003':
+        'prefix': "The page url contains '...'"
+        'body': "The page url contains '${1:url}'"
+    'then-004':
+        'prefix': "The [...] value is '...'"
+        'body': "The [${1:element}] value is '${2:value}'"
+    'then-005':
+        'prefix': "The [...] value is not '...'"
+        'body': "The [${1:element}] value is not '${2:value}'"
+    'then-006':
+        'prefix': "The [...] value contains '...'"
+        'body': "The [${1:element}] value contains '${2:value}'"
+    'then-007':
+        'prefix': "The [...] value is more than '...'"
+        'body': "The [${1:element}] value is more than '${2:value}'"
+    'then-008':
+        'prefix': "The [...] value is more than or equal '...'"
+        'body': "The [${1:element}] value is more than or equal '${2:value}'"
+    'then-009':
+        'prefix': "The [...] value is less than '...'"
+        'body': "The [${1:element}] value is less than '${2:value}'"
+    'then-010':
+        'prefix': "The [...] value is less than or equal '...'"
+        'body': "The [${1:element}] value is less than or equal '${2:value}'"
+    'then-011':
+        'prefix': "The [...] value is between '...' and '...'"
+        'body': "The [${1:element}] value is between '${2:value}' and '${3:value}'"
+    'then-012':
+        'prefix': "The [...] value is empty"
+        'body': "The [${1:element}] value is empty"
+    'then-013':
+        'prefix': "The [...] value is not empty"
+        'body': "The [${1:element}] value is not empty"
+    'then-014':
+        'prefix': "The [...] exists"
+        'body': "The [${1:element}] exists"
+    'then-015':
+        'prefix': "The [...] does not exist"
+        'body': "The [${1:element}] does not exist"
+    'then-016':
+        'prefix': "The [...] is visible"
+        'body': "The [${1:element}] is visible"
+    'then-017':
+        'prefix': "The [...] is invisible"
+        'body': "The [${1:element}] is invisible"
+    'then-018':
+        'prefix': "The [...] is selected"
+        'body': "The [${1:element}] is selected"
+    'then-019':
+        'prefix': "The [...] is not selected"
+        'body': "The [${1:element}] is not selected"
+    'then-020':
+        'prefix': "The [...] is checked"
+        'body': "The [${1:element}] is checked"
+    'then-021':
+        'prefix': "The [...] is unchecked"
+        'body': "The [${1:element}] is unchecked"
+    'then-022':
+        'prefix': "The popup message shows '...'"
+        'body': "The popup message shows '${1:value}'"
+    'then-023':
+        'prefix': "The [...] tooltip text is '...'"
+        'body': "The [${1:element}] tooltip text is '${2:value}'"
+    'then-024':
+        'prefix': "The page has '...' items of [...]"
+        'body': "The page has '${1:amount}' items of [${2:element}]"
