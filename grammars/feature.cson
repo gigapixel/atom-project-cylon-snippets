@@ -28,7 +28,7 @@
         "name": 'string.single.qoute.feature'
     }
     {
-        "match": '(\\"[^"]*\\")'
+        "match": '(\\".*\\")'
         "name": 'string.double.qoute.feature'
     }
     {
