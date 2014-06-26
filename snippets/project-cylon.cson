@@ -30,116 +30,119 @@
         'prefix': "But"
         'body': "But "
     'given-001':
-        'prefix': "User has [...] page opened"
-        'body': "User has [${1:page}] page opened"
+        'prefix': "user has [...] page opened"
+        'body': "user has [${1:page}] page opened"
     'when-001':
-        'prefix': "User enters '...' to the [...]"
-        'body': "User enters '${1:value}' to the [${2:element}]"
+        'prefix': "user enters '...' to the [...]"
+        'body': "user enters '${1:value}' to the [${2:element}]"
     'when-002':
-        'prefix': "User enters date '...' to the [...]"
-        'body': "User enters date '${1:value}' to the [${2:element}]"
+        'prefix': "user enters date '...' to the [...]"
+        'body': "user enters date '${1:value}' to the [${2:element}]"
     'when-003':
-        'prefix': "User clears value on the [...]"
-        'body': "User clears value on the [${1:element}]"
+        'prefix': "user clears value on the [...]"
+        'body': "user clears value on the [${1:element}]"
     'when-004':
-        'prefix': "User clicks the [...]"
-        'body': "User clicks the [${1:element}]"
+        'prefix': "user clicks the [...]"
+        'body': "user clicks the [${1:element}]"
     'when-005':
-        'prefix': "User selects the [...]"
-        'body': "User selects the [${1:element}]"
+        'prefix': "user selects the [...]"
+        'body': "user selects the [${1:element}]"
     'when-006':
-        'prefix': "User selects '...' on the [...]"
-        'body': "User selects '${1:value}' on the [${2:element}]"
+        'prefix': "user selects '...' on the [...]"
+        'body': "user selects '${1:value}' on the [${2:element}]"
     'when-007':
-        'prefix': "User checks the [...]"
-        'body': "User checks the [${1:element}]"
+        'prefix': "user checks the [...]"
+        'body': "user checks the [${1:element}]"
     'when-008':
-        'prefix': "User unchecks the [...]"
-        'body': "User unchecks the [${1:element}]"
+        'prefix': "user unchecks the [...]"
+        'body': "user unchecks the [${1:element}]"
     'when-009':
-        'prefix': "User moves mouse over the [...]"
-        'body': "User moves mouse over the [${1:element}]"
+        'prefix': "user moves mouse over the [...]"
+        'body': "user moves mouse over the [${1:element}]"
     'when-010':
-        'prefix': "User uploads file '...' to the [...]"
-        'body': "User uploads file '${1:file}' to the [${2:element}]"
+        'prefix': "user uploads file '...' to the [...]"
+        'body': "user uploads file '${1:file}' to the [${2:element}]"
     'when-011':
-        'prefix': "User enters '...' to the popup"
-        'body': "User enters '${1:value}' to the popup"
+        'prefix': "user enters '...' to the popup"
+        'body': "user enters '${1:value}' to the popup"
     'when-012':
-        'prefix': "User accept the popup"
-        'body': "User accept the popup"
+        'prefix': "user accept the popup"
+        'body': "user accept the popup"
     'when-013':
-        'prefix': "User cancel the popup"
-        'body': "User cancel the popup"
+        'prefix': "user cancel the popup"
+        'body': "user cancel the popup"
     'then-001':
-        'prefix': "The browser shows [...] page"
-        'body': "The browser shows [${1:page}] page"
+        'prefix': "the browser shows [...] page"
+        'body': "the browser shows [${1:page}] page"
     'then-002':
-        'prefix': "The page url is '...'"
-        'body': "The page url is '${1:url}'"
+        'prefix': "the page url is '...'"
+        'body': "the page url is '${1:url}'"
     'then-003':
-        'prefix': "The page url contains '...'"
-        'body': "The page url contains '${1:url}'"
+        'prefix': "the page url contains '...'"
+        'body': "the page url contains '${1:url}'"
     'then-004':
-        'prefix': "The [...] value is '...'"
-        'body': "The [${1:element}] value is '${2:value}'"
+        'prefix': "the [...] value is '...'"
+        'body': "the [${1:element}] value is '${2:value}'"
     'then-005':
-        'prefix': "The [...] value is not '...'"
-        'body': "The [${1:element}] value is not '${2:value}'"
+        'prefix': "the [...] value is not '...'"
+        'body': "the [${1:element}] value is not '${2:value}'"
     'then-006':
-        'prefix': "The [...] value contains '...'"
-        'body': "The [${1:element}] value contains '${2:value}'"
+        'prefix': "the [...] value contains '...'"
+        'body': "the [${1:element}] value contains '${2:value}'"
     'then-007':
-        'prefix': "The [...] value is more than '...'"
-        'body': "The [${1:element}] value is more than '${2:value}'"
+        'prefix': "the [...] value is more than '...'"
+        'body': "the [${1:element}] value is more than '${2:value}'"
     'then-008':
-        'prefix': "The [...] value is more than or equal '...'"
-        'body': "The [${1:element}] value is more than or equal '${2:value}'"
+        'prefix': "the [...] value is more than or equal '...'"
+        'body': "the [${1:element}] value is more than or equal '${2:value}'"
     'then-009':
-        'prefix': "The [...] value is less than '...'"
-        'body': "The [${1:element}] value is less than '${2:value}'"
+        'prefix': "the [...] value is less than '...'"
+        'body': "the [${1:element}] value is less than '${2:value}'"
     'then-010':
-        'prefix': "The [...] value is less than or equal '...'"
-        'body': "The [${1:element}] value is less than or equal '${2:value}'"
+        'prefix': "the [...] value is less than or equal '...'"
+        'body': "the [${1:element}] value is less than or equal '${2:value}'"
     'then-011':
-        'prefix': "The [...] value is between '...' and '...'"
-        'body': "The [${1:element}] value is between '${2:value}' and '${3:value}'"
+        'prefix': "the [...] value is between '...' and '...'"
+        'body': "the [${1:element}] value is between '${2:value}' and '${3:value}'"
     'then-012':
-        'prefix': "The [...] value is empty"
-        'body': "The [${1:element}] value is empty"
+        'prefix': "the [...] value is empty"
+        'body': "the [${1:element}] value is empty"
     'then-013':
-        'prefix': "The [...] value is not empty"
-        'body': "The [${1:element}] value is not empty"
+        'prefix': "the [...] value is not empty"
+        'body': "the [${1:element}] value is not empty"
     'then-014':
-        'prefix': "The [...] exists"
-        'body': "The [${1:element}] exists"
+        'prefix': "the [...] exists"
+        'body': "the [${1:element}] exists"
     'then-015':
-        'prefix': "The [...] does not exist"
-        'body': "The [${1:element}] does not exist"
+        'prefix': "the [...] does not exist"
+        'body': "the [${1:element}] does not exist"
     'then-016':
-        'prefix': "The [...] is visible"
-        'body': "The [${1:element}] is visible"
+        'prefix': "the [...] is visible"
+        'body': "the [${1:element}] is visible"
     'then-017':
-        'prefix': "The [...] is invisible"
-        'body': "The [${1:element}] is invisible"
+        'prefix': "the [...] is invisible"
+        'body': "the [${1:element}] is invisible"
     'then-018':
-        'prefix': "The [...] is selected"
-        'body': "The [${1:element}] is selected"
+        'prefix': "the [...] is selected"
+        'body': "the [${1:element}] is selected"
     'then-019':
-        'prefix': "The [...] is not selected"
-        'body': "The [${1:element}] is not selected"
+        'prefix': "the [...] is not selected"
+        'body': "the [${1:element}] is not selected"
     'then-020':
-        'prefix': "The [...] is checked"
-        'body': "The [${1:element}] is checked"
+        'prefix': "the [...] is checked"
+        'body': "the [${1:element}] is checked"
     'then-021':
-        'prefix': "The [...] is unchecked"
-        'body': "The [${1:element}] is unchecked"
+        'prefix': "the [...] is unchecked"
+        'body': "the [${1:element}] is unchecked"
     'then-022':
-        'prefix': "The popup message shows '...'"
-        'body': "The popup message shows '${1:value}'"
+        'prefix': "the popup message shows '...'"
+        'body': "the popup message shows '${1:value}'"
     'then-023':
-        'prefix': "The [...] tooltip text is '...'"
-        'body': "The [${1:element}] tooltip text is '${2:value}'"
+        'prefix': "the [...] tooltip text is '...'"
+        'body': "the [${1:element}] tooltip text is '${2:value}'"
     'then-024':
-        'prefix': "The page has '...' items of [...]"
-        'body': "The page has '${1:amount}' items of [${2:element}]"
+        'prefix': "the page has '...' items of [...]"
+        'body': "the page has '${1:amount}' items of [${2:element}]"
+    'sp-001':
+        'prefix': "accept fail"
+        'body': "accept fail"
