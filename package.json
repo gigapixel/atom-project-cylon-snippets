@@ -1,6 +1,6 @@
 {
   "name": "project-cylon-snippets",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Add project-cylon syntax and snippets to Atom",
   "repository": "https://github.com/gigapixel/atom-project-cylon-snippets",
   "license": "MIT",
