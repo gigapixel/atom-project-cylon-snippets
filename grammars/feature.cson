@@ -32,7 +32,7 @@
         "name": 'string.double.qoute.feature'
     }
     {
-        "match": '(\\[.*\\])'
+        "match": '(\\[[^]]*\\])'
         "name": 'constant.numeric.feature'
     }
 ]
