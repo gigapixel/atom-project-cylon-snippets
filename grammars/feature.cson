@@ -24,7 +24,7 @@
         "name": 'constant.character.escape.feature'
     }
     {
-        "match": "(\\'[^']*\\')"
+        "match": "(\\'.*\\')"
         "name": 'string.single.qoute.feature'
     }
     {

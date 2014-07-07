@@ -71,6 +71,9 @@
     'when-013':
         'prefix': "user cancel the popup"
         'body': "user cancel the popup"
+    'when-014':
+        'prefix': "user enters date next '...' days to the [...]"
+        'body': "user enters date next '${1:value}' days to the [${2:element}]"
     'then-001':
         'prefix': "the browser shows [...] page"
         'body': "the browser shows [${1:page}] page"
