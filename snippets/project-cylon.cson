@@ -74,6 +74,9 @@
     'when-014':
         'prefix': "user enters date next '...' days to the [...]"
         'body': "user enters date next '${1:value}' days to the [${2:element}]"
+    'when-015':
+        'prefix': "user waits for '...' seconds"
+        'body': "user waits for '${1:time}' seconds"
     'then-001':
         'prefix': "the browser shows [...] page"
         'body': "the browser shows [${1:page}] page"
@@ -146,6 +149,18 @@
     'then-024':
         'prefix': "the page has '...' items of [...]"
         'body': "the page has '${1:amount}' items of [${2:element}]"
+    'then-025':
+        'prefix': "the [...] is enabled"
+        'body': "the [${1:element}] is enabled"
+    'then-026':
+        'prefix': "the [...] is disabled"
+        'body': "the [${1:element}] is disabled"
+    'then-027':
+        'prefix': "Then the [...] value matches pattern '...'"
+        'body': "Then the [${1:element}] value matches pattern '${2:pattern}'"
+    'then-028':
+        'prefix': "Then the [...] class contains '...'"
+        'body': "Then the [${1:element}] class contains '${2:value}'"
     'sp-001':
         'prefix': "accept fail"
         'body': "accept fail"
