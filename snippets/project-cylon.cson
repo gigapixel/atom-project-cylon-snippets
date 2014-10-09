@@ -156,11 +156,11 @@
         'prefix': "the [...] is disabled"
         'body': "the [${1:element}] is disabled"
     'then-027':
-        'prefix': "Then the [...] value matches pattern '...'"
-        'body': "Then the [${1:element}] value matches pattern '${2:pattern}'"
+        'prefix': "the [...] value matches pattern '...'"
+        'body': "the [${1:element}] value matches pattern '${2:pattern}'"
     'then-028':
-        'prefix': "Then the [...] class contains '...'"
-        'body': "Then the [${1:element}] class contains '${2:value}'"
+        'prefix': "the [...] class contains '...'"
+        'body': "the [${1:element}] class contains '${2:value}'"
     'sp-001':
         'prefix': "accept fail"
         'body': "accept fail"
