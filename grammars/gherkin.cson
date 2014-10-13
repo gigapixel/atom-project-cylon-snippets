@@ -5,35 +5,35 @@
 "patterns": [
     {
         "match": '\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:)'
-        "name": 'keyword.feature'
+        "name": 'keyword.gherkin'
     }
     {
         "match": '\\s*(Given|Then|When|And|But)'
-        "name": 'support.class.feature'
+        "name": 'support.class.gherkin'
     }
     {
-        "match": '\\s*(@[A-Za-z0-9_\\-]+)'
-        "name": 'entity.name.function.decorator.feature'
+        "match": '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        "name": 'entity.name.function.decorator.gherkin'
     }
     {
         "match": '#(.*)$'
-        "name": 'comment.line.feature'
+        "name": 'comment.line.gherkin'
     }
     {
         "match": '(\\<\\w+\\>)'
         "name": 'constant.character.escape.feature'
     }
     {
-        "match": "(\\'.*\\')"
-        "name": 'string.single.qoute.feature'
+        "match": "(\\'.*?[^\\']\\')"
+        "name": 'string.single.qoute.gherkin'
     }
     {
-        "match": '(\\".*\\")'
-        "name": 'string.double.qoute.feature'
+        "match": '(\\".*?[^\\"]\\")'
+        "name": 'string.double.qoute.gherkin'
     }
     {
         "match": '(\\[[^]]*\\])'
-        "name": 'constant.numeric.feature'
+        "name": 'constant.numeric.gherkin'
     }
     {
         "match": '\\|\\s(.*)\\s\\|'
